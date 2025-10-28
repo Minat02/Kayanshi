@@ -506,3 +506,12 @@
 2025-10-25 17:52:17,967 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: обнсаглосос
 2025-10-25 17:52:22,373 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /help
 2025-10-25 17:52:54,020 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-28 16:31:10,447 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-28 16:31:24,928 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-28 16:32:45,450 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-28 16:33:13,809 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-28 16:33:14,688 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-28 16:33:24,836 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-28 16:33:39,804 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: supergroup | TYPE: command | CONTENT: /get_group_id
+2025-10-28 16:34:22,319 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-28 16:34:57,561 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /publish

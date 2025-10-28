@@ -106361,3 +106361,139 @@ telegram.error.NetworkError: Unknown error in HTTP implementation: RuntimeError(
 2025-10-26 02:59:52,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
 2025-10-26 02:59:52,028 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2025-10-26 02:59:52,028 - telegram.ext.Application - INFO - Application.stop() complete
+2025-10-28 16:29:36,374 - root - INFO - 🤖 Бот запускается...
+2025-10-28 16:29:36,393 - database - INFO - ✅ Таблицы базы данных созданы успешно
+2025-10-28 16:29:36,393 - root - INFO - ✅ База данных инициализирована
+2025-10-28 16:29:36,410 - root - INFO - ✅ Загружено 0 активных отложенных публикаций из БД
+2025-10-28 16:29:38,153 - root - INFO - ✅ Проверка отложенных публикаций запущена
+2025-10-28 16:29:38,154 - root - INFO - ✅ Бот успешно запущен
+2025-10-28 16:29:38,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getMe "HTTP/1.1 200 OK"
+2025-10-28 16:29:39,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/deleteWebhook "HTTP/1.1 200 OK"
+2025-10-28 16:29:39,180 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-28 16:29:39,180 - telegram.ext.Application - INFO - Application started
+2025-10-28 16:29:49,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:29:59,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:30:09,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:30:19,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:30:29,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:30:40,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:30:50,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:00,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:10,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:10,447 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /start
+2025-10-28 16:31:10,447 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-28 16:31:10,448 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: STARTED_BOT
+2025-10-28 16:31:10,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:31:20,575 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:24,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:24,927 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-28 16:31:24,928 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-28 16:31:24,928 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: STARTED_EDIT_MEETING
+2025-10-28 16:31:25,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:31:26,358 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:26,360 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: edit_select_2
+2025-10-28 16:31:26,472 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:26,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:28,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:31,621 - root - ERROR - Ошибка при обработке обновления: Timed out
+2025-10-28 16:31:31,621 - root - ERROR - Callback data: edit_select_2
+2025-10-28 16:31:32,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:31:32,005 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: edit_select_2
+2025-10-28 16:31:32,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:32,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:37,345 - root - ERROR - Ошибка при обработке обновления: Timed out
+2025-10-28 16:31:37,346 - root - ERROR - Callback data: edit_select_2
+2025-10-28 16:31:37,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:31:38,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:43,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:31:43,255 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: edit_select_2
+2025-10-28 16:31:43,692 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:43,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:31:48,948 - root - ERROR - Ошибка при обработке обновления: Timed out
+2025-10-28 16:31:48,949 - root - ERROR - Callback data: edit_select_2
+2025-10-28 16:31:49,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:31:53,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:03,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:13,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:23,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:34,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:44,200 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:45,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:32:45,450 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /help
+2025-10-28 16:32:45,450 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-28 16:32:45,451 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: REQUESTED_HELP
+2025-10-28 16:32:46,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:32:55,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:05,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:13,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:13,808 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /start
+2025-10-28 16:33:13,809 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-28 16:33:13,809 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: STARTED_BOT
+2025-10-28 16:33:14,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:33:14,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:14,688 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-28 16:33:14,688 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-28 16:33:14,689 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: STARTED_NEW_MEETING
+2025-10-28 16:33:14,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:33:16,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:16,854 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: type_online
+2025-10-28 16:33:16,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:33:16,966 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-28 16:33:17,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-28 16:33:24,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:24,835 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-28 16:33:24,836 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-28 16:33:24,836 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 783230538
+2025-10-28 16:33:25,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:33:34,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:39,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:33:39,803 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-28 16:33:39,804 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: supergroup | TYPE: command | CONTENT: /get_group_id
+2025-10-28 16:33:39,804 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: -1003151775522
+2025-10-28 16:33:41,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 400 Bad Request"
+2025-10-28 16:33:41,108 - root - ERROR - Ошибка при обработке обновления: Can't parse entities: can't find end of the entity starting at byte offset 323
+2025-10-28 16:33:41,108 - root - ERROR - Message text: /get_group_id
+2025-10-28 16:33:41,248 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:33:49,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:00,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:10,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:20,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:22,317 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:22,319 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /my_groups
+2025-10-28 16:34:22,319 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-28 16:34:22,320 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: VIEWED_MY_GROUPS
+2025-10-28 16:34:22,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:34:32,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:42,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:52,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:57,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:34:57,560 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: COMMAND | DETAILS: /publish
+2025-10-28 16:34:57,561 - all_messages - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-28 16:34:57,561 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-28 16:34:58,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-28 16:35:00,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:00,277 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: select_2
+2025-10-28 16:35:00,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:35:00,497 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 2
+2025-10-28 16:35:00,687 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-28 16:35:03,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:03,633 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: publish_group_2_2
+2025-10-28 16:35:03,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-28 16:35:03,868 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 2, group_db_id: 2
+2025-10-28 16:35:03,872 - root - INFO - 🔄 PUBLISH_MEETING: Начало публикации meeting_id=2, group_id=-1003151775522
+2025-10-28 16:35:03,875 - root - INFO - 📤 PUBLISH_MEETING: Отправка сообщения в группу -1003151775522
+2025-10-28 16:35:08,882 - root - ERROR - ❌ PUBLISH_MEETING: Ошибка при публикации: Timed out
+2025-10-28 16:35:08,883 - root - ERROR - ❌ PUBLISH_GROUP_HANDLER: Ошибка: 'NoneType' object has no attribute 'reply_text'
+2025-10-28 16:35:09,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-28 16:35:13,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:23,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:33,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:44,077 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:35:54,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:36:04,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:36:14,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:36:24,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:36:29,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-28 16:36:29,766 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-10-28 16:36:29,767 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-10-28 16:36:29,792 - telegram.ext.Application - INFO - Application.stop() complete
