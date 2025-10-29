@@ -671,3 +671,298 @@
 2025-10-28 16:35:00,497 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 2
 2025-10-28 16:35:03,633 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: publish_group_2_2
 2025-10-28 16:35:03,868 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 2, group_db_id: 2
+2025-10-29 16:48:52,818 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /help
+2025-10-29 16:48:52,821 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: REQUESTED_HELP
+2025-10-29 16:48:59,981 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:49:00,213 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:49:02,611 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: select_1
+2025-10-29 16:49:02,987 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 1
+2025-10-29 16:49:04,951 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: publish_group_1_1
+2025-10-29 16:49:05,217 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 1, group_db_id: 1
+2025-10-29 16:49:06,304 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: PUBLISHED_MEETING | DETAILS: meeting: 'вдшмрдвы', group: -1003151775522
+2025-10-29 16:49:14,243 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: group_join_1279717168_1_-1003151775522
+2025-10-29 16:49:15,148 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: JOINED_MEETING | DETAILS: meeting_id: 1, group: -1003151775522
+2025-10-29 16:49:15,330 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:49:15,396 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MANAGE_GROUPS
+2025-10-29 16:49:15,552 - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:23,548 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:25,848 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_join_1279717168_1_-1003151775522
+2025-10-29 16:49:26,029 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: JOINED_MEETING | DETAILS: meeting_id: 1, group: -1003151775522
+2025-10-29 16:49:27,640 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:58,350 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: groups_back
+2025-10-29 16:50:03,573 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:50:03,730 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:50:05,858 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:50:06,124 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:50:07,652 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_TITLE | DETAILS: дмидыякмишяыкмиш
+2025-10-29 16:50:09,373 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_DESCRIPTION | DETAILS: ыдмпыдямщыякмщи
+2025-10-29 16:50:17,964 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_DATE | DETAILS: 29.10.2025
+2025-10-29 16:50:25,779 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_TIME | DETAILS: 17:00
+2025-10-29 16:50:28,456 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_ONLINE_LINK | DETAILS: омуфшфуршщмауи
+2025-10-29 16:50:32,849 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: confirm_4
+2025-10-29 16:50:33,397 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CONFIRMED_MEETING | DETAILS: meeting_id: 4
+2025-10-29 16:50:35,776 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:50:35,797 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:50:40,821 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: select_4
+2025-10-29 16:50:41,037 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 4
+2025-10-29 16:50:42,329 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: publish_group_4_1
+2025-10-29 16:50:42,563 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 4, group_db_id: 1
+2025-10-29 16:50:43,119 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: PUBLISHED_MEETING | DETAILS: meeting: 'дмидыякмишяыкмиш', group: -1003151775522
+2025-10-29 16:50:46,139 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_4_-1003151775522
+2025-10-29 16:50:48,976 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_join_1279717168_4_-1003151775522
+2025-10-29 16:50:49,210 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: JOINED_MEETING | DETAILS: meeting_id: 4, group: -1003151775522
+2025-10-29 16:50:50,100 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_4_-1003151775522
+2025-10-29 16:51:56,337 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:51:56,340 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:52:09,418 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /start
+2025-10-29 16:52:09,458 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_BOT
+2025-10-29 16:52:16,653 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /help
+2025-10-29 16:52:16,654 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_HELP
+2025-10-29 16:52:18,219 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:18,223 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:52:18,511 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_groups
+2025-10-29 16:52:18,514 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_GROUPS
+2025-10-29 16:52:20,469 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:20,470 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:52:21,776 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_groups
+2025-10-29 16:52:21,819 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_GROUPS
+2025-10-29 16:52:45,297 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:52:45,321 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:52:48,402 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:52:48,553 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: MANAGE_GROUPS
+2025-10-29 16:52:48,773 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /start
+2025-10-29 16:52:48,902 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_BOT
+2025-10-29 16:52:54,468 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:52:54,556 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:52:54,782 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:52:54,784 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:52:54,956 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:52:55,011 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:52:55,281 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /schedule
+2025-10-29 16:52:55,283 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_SCHEDULE_PROCESS
+2025-10-29 16:52:57,044 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:52:57,045 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:52:59,106 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:59,107 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:53:01,381 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:53:01,384 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:53:04,051 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:04,055 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:06,600 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:53:06,602 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: MANAGE_GROUPS
+2025-10-29 16:53:08,381 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:08,430 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:12,015 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:12,016 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:13,384 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:13,394 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:14,984 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:15,031 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:19,218 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:19,220 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:24,770 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:53:24,771 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:53:28,461 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:53:28,464 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:53:31,675 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:53:31,734 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:53:35,479 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:35,515 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:36,745 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:36,746 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:37,976 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:37,979 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:39,546 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:39,584 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:40,898 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:40,900 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:42,185 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:42,186 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:44,396 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:44,398 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:45,796 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:45,797 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:47,288 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:47,292 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:48,582 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:48,620 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:49,761 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:49,786 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:51,011 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:51,012 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:52,283 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:52,284 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:53,566 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:53,601 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:54,834 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:54,867 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:56,119 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:56,212 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:57,384 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:57,426 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:59,250 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:59,267 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:00,496 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:00,625 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:02,410 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:02,411 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:05,235 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:05,240 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:06,905 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:06,906 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:07,925 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:07,927 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:08,994 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:09,010 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:10,706 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:10,707 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:12,034 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:12,036 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:31,639 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:31,640 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:34,166 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:34,168 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:41,095 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:41,096 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:42,455 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:42,456 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:46,336 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:46,337 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:47,628 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:47,629 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:48,749 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:48,750 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:50,214 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:50,215 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:51,390 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:51,391 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:52,662 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:52,663 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:53,605 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:53,607 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:54,546 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:54,547 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:56,800 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:56,801 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:57,876 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:57,877 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:00,217 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:00,218 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:01,738 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:01,738 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:02,937 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:02,938 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:04,383 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:04,383 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:06,670 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:06,671 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:08,000 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:08,001 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:09,348 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:09,349 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:10,423 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:10,424 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:11,389 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:11,390 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:12,322 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:12,323 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:13,297 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:13,298 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:14,349 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:14,350 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:15,253 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:15,254 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:16,301 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:16,302 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:18,100 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:18,101 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:19,035 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:19,036 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:19,991 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:19,992 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:20,876 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:20,877 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:22,216 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:22,217 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:23,546 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:23,547 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:24,797 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:24,798 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:25,993 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:25,994 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:27,196 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:27,197 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:28,450 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:28,451 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:29,551 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:29,552 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:30,473 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:30,474 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:32,111 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:32,112 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:33,750 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:33,751 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:35,578 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:35,579 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:40,873 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:40,874 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:42,210 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:42,211 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:42,913 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:42,914 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:48,471 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:48,472 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:53,727 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:53,728 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:11,013 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:11,014 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:12,427 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:12,428 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:13,609 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:13,610 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:14,649 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:14,650 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:16,973 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:16,974 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:18,219 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:18,220 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:19,765 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:19,872 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:21,781 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:21,901 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:22,773 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:23,003 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:24,008 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:24,145 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:24,464 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:24,578 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:25,792 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:25,903 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:26,187 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:26,312 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:27,098 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:27,415 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:31,348 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:31,443 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:31,842 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:31,943 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:33,424 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:33,617 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:34,878 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:35,091 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:35,310 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:35,490 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:36,535 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:36,689 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:36,879 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:37,026 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:38,113 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:38,315 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:38,622 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:38,829 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:40,114 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:40,422 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:41,759 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:41,951 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:42,146 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:42,320 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online

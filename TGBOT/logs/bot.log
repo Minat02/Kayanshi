@@ -106497,3 +106497,965 @@ telegram.error.NetworkError: Unknown error in HTTP implementation: RuntimeError(
 2025-10-28 16:36:29,766 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2025-10-28 16:36:29,767 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2025-10-28 16:36:29,792 - telegram.ext.Application - INFO - Application.stop() complete
+2025-10-29 16:48:28,616 - root - INFO - 🤖 Бот запускается...
+2025-10-29 16:48:28,634 - database - INFO - ✅ Таблицы базы данных созданы успешно
+2025-10-29 16:48:28,635 - root - INFO - ✅ База данных инициализирована
+2025-10-29 16:48:28,662 - root - INFO - ✅ Загружено 0 активных отложенных публикаций из БД
+2025-10-29 16:48:30,575 - root - INFO - ✅ Проверка отложенных публикаций запущена
+2025-10-29 16:48:30,576 - root - INFO - ✅ Бот успешно запущен
+2025-10-29 16:48:32,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getMe "HTTP/1.1 200 OK"
+2025-10-29 16:48:32,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/deleteWebhook "HTTP/1.1 200 OK"
+2025-10-29 16:48:32,626 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-29 16:48:32,627 - telegram.ext.Application - INFO - Application started
+2025-10-29 16:48:43,025 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:48:52,812 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:48:52,818 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /help
+2025-10-29 16:48:52,820 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-29 16:48:52,821 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: REQUESTED_HELP
+2025-10-29 16:48:56,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:48:59,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:48:59,981 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:49:00,135 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:49:00,213 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:49:00,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:02,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:02,611 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: select_1
+2025-10-29 16:49:02,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:02,987 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 1
+2025-10-29 16:49:03,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:49:04,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:04,951 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: publish_group_1_1
+2025-10-29 16:49:05,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:05,217 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 1, group_db_id: 1
+2025-10-29 16:49:05,250 - root - INFO - 🔄 PUBLISH_MEETING: Начало публикации meeting_id=1, group_id=-1003151775522
+2025-10-29 16:49:05,316 - root - INFO - 📤 PUBLISH_MEETING: Отправка сообщения в группу -1003151775522
+2025-10-29 16:49:05,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:05,984 - root - INFO - ✅ PUBLISH_MEETING: Сообщение отправлено, message_id=103
+2025-10-29 16:49:05,993 - root - INFO - 💾 PUBLISH_MEETING: Обновление БД
+2025-10-29 16:49:06,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getChat "HTTP/1.1 200 OK"
+2025-10-29 16:49:06,303 - root - INFO - 💾 PUBLISH_MEETING: Группа сохранена: тест бота
+2025-10-29 16:49:06,304 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: PUBLISHED_MEETING | DETAILS: meeting: 'вдшмрдвы', group: -1003151775522
+2025-10-29 16:49:06,305 - root - INFO - ✅ PUBLISH_MEETING: Публикация завершена успешно
+2025-10-29 16:49:06,305 - root - ERROR - ❌ PUBLISH_MEETING: Ошибка при публикации: 'NoneType' object has no attribute 'reply_text'
+2025-10-29 16:49:06,334 - root - ERROR - ❌ PUBLISH_GROUP_HANDLER: Ошибка: 'NoneType' object has no attribute 'reply_text'
+2025-10-29 16:49:06,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:49:14,228 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:14,243 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: group_join_1279717168_1_-1003151775522
+2025-10-29 16:49:14,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,148 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: JOINED_MEETING | DETAILS: meeting_id: 1, group: -1003151775522
+2025-10-29 16:49:15,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,330 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:49:15,386 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:49:15,396 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MANAGE_GROUPS
+2025-10-29 16:49:15,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,552 - user_actions - INFO - USER: ID: 783230538 | @KaMiKaZe236 | D | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:15,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:15,860 - root - INFO - 🔍 PARTICIPANTS_DEBUG: meeting_id=1, participants=[{'id': 1279717168, 'name': 'Minat0'}, {'id': 783230538, 'name': 'D'}], count=2
+2025-10-29 16:49:16,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:23,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:23,548 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:23,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:24,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:24,125 - root - INFO - 🔍 PARTICIPANTS_DEBUG: meeting_id=1, participants=[{'id': 1279717168, 'name': 'Minat0'}, {'id': 783230538, 'name': 'D'}], count=2
+2025-10-29 16:49:24,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:25,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:25,848 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_join_1279717168_1_-1003151775522
+2025-10-29 16:49:26,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:26,029 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: JOINED_MEETING | DETAILS: meeting_id: 1, group: -1003151775522
+2025-10-29 16:49:26,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:27,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:27,640 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_1_-1003151775522
+2025-10-29 16:49:27,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:28,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:28,109 - root - INFO - 🔍 PARTICIPANTS_DEBUG: meeting_id=1, participants=[{'id': 1279717168, 'name': 'Minat0'}, {'id': 783230538, 'name': 'D'}], count=2
+2025-10-29 16:49:28,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:49:37,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:48,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:58,111 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:58,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:49:58,350 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: groups_back
+2025-10-29 16:49:58,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:49:59,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:50:03,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:03,573 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:50:03,726 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:50:03,730 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:50:04,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:05,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:05,858 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:50:06,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:06,124 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:50:06,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:50:07,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:07,650 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: дмидыякмишяыкмиш
+2025-10-29 16:50:07,652 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_TITLE | DETAILS: дмидыякмишяыкмиш
+2025-10-29 16:50:07,783 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:09,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:09,372 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: ыдмпыдямщыякмщи
+2025-10-29 16:50:09,373 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_DESCRIPTION | DETAILS: ыдмпыдямщыякмщи
+2025-10-29 16:50:09,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:17,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:17,963 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: 29.10.2025
+2025-10-29 16:50:17,964 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_DATE | DETAILS: 29.10.2025
+2025-10-29 16:50:18,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:25,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:25,778 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: 17:00
+2025-10-29 16:50:25,779 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_TIME | DETAILS: 17:00
+2025-10-29 16:50:26,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:28,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:28,454 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: омуфшфуршщмауи
+2025-10-29 16:50:28,456 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: MEETING_ONLINE_LINK | DETAILS: омуфшфуршщмауи
+2025-10-29 16:50:28,533 - root - INFO - 🔄 SAVE_MEETING: Сохранение встречи с данными: {'type': 'online', 'title': 'дмидыякмишяыкмиш', 'description': 'ыдмпыдямщыякмщи', 'date': '29.10.2025', 'time': '17:00', 'location': 'омуфшфуршщмауи', 'participants': []}
+2025-10-29 16:50:28,538 - root - INFO - 🔄 CREATE_MEETING: Создание встречи с участниками: []
+2025-10-29 16:50:28,556 - root - INFO - ✅ CREATE_MEETING: Встреча создана с ID 4, участников: 0
+2025-10-29 16:50:28,557 - root - INFO - 🔍 SAVE_MEETING: Проверка участников после создания: []
+2025-10-29 16:50:28,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:32,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:32,849 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: confirm_4
+2025-10-29 16:50:33,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:33,397 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CONFIRMED_MEETING | DETAILS: meeting_id: 4
+2025-10-29 16:50:33,760 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:50:35,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:35,776 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:50:35,777 - all_messages - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:50:35,797 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:50:36,037 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:40,761 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:40,821 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: select_4
+2025-10-29 16:50:40,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:41,037 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_MEETING_FOR_PUBLISH | DETAILS: meeting_id: 4
+2025-10-29 16:50:41,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:50:42,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:42,329 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: publish_group_4_1
+2025-10-29 16:50:42,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:42,563 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: SELECTED_SAVED_GROUP | DETAILS: meeting_id: 4, group_db_id: 1
+2025-10-29 16:50:42,567 - root - INFO - 🔄 PUBLISH_MEETING: Начало публикации meeting_id=4, group_id=-1003151775522
+2025-10-29 16:50:42,573 - root - INFO - 📤 PUBLISH_MEETING: Отправка сообщения в группу -1003151775522
+2025-10-29 16:50:42,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:50:42,899 - root - INFO - ✅ PUBLISH_MEETING: Сообщение отправлено, message_id=107
+2025-10-29 16:50:42,902 - root - INFO - 💾 PUBLISH_MEETING: Обновление БД
+2025-10-29 16:50:43,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getChat "HTTP/1.1 200 OK"
+2025-10-29 16:50:43,118 - root - INFO - 💾 PUBLISH_MEETING: Группа сохранена: тест бота
+2025-10-29 16:50:43,119 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: PUBLISHED_MEETING | DETAILS: meeting: 'дмидыякмишяыкмиш', group: -1003151775522
+2025-10-29 16:50:43,120 - root - INFO - ✅ PUBLISH_MEETING: Публикация завершена успешно
+2025-10-29 16:50:43,120 - root - ERROR - ❌ PUBLISH_MEETING: Ошибка при публикации: 'NoneType' object has no attribute 'reply_text'
+2025-10-29 16:50:43,121 - root - ERROR - ❌ PUBLISH_GROUP_HANDLER: Ошибка: 'NoneType' object has no attribute 'reply_text'
+2025-10-29 16:50:43,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:50:46,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:46,139 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_4_-1003151775522
+2025-10-29 16:50:46,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:46,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:46,428 - root - INFO - 🔍 PARTICIPANTS_DEBUG: meeting_id=4, participants=[], count=0
+2025-10-29 16:50:46,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:48,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:48,976 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_join_1279717168_4_-1003151775522
+2025-10-29 16:50:49,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:49,210 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: JOINED_MEETING | DETAILS: meeting_id: 4, group: -1003151775522
+2025-10-29 16:50:49,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getChat "HTTP/1.1 200 OK"
+2025-10-29 16:50:49,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 400 Bad Request"
+2025-10-29 16:50:49,525 - root - ERROR - Ошибка при обновлении сообщения в группе: Message to edit not found
+2025-10-29 16:50:49,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:50,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:50:50,100 - user_actions - INFO - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | ACTION: CALLBACK | DETAILS: group_list_1279717168_4_-1003151775522
+2025-10-29 16:50:50,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:50,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:50:50,513 - root - INFO - 🔍 PARTICIPANTS_DEBUG: meeting_id=4, participants=[{'id': 1279717168, 'name': 'Minat0', 'username': 'Minat0_Sensei'}], count=1
+2025-10-29 16:50:50,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:51:26,477 - root - ERROR - Ошибка при обработке обновления: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-29 16:51:46,651 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:51:56,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:51:56,337 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /publish
+2025-10-29 16:51:56,339 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:51:56,340 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_PUBLISH_PROCESS
+2025-10-29 16:51:56,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:06,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:09,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:09,418 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /start
+2025-10-29 16:52:09,434 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-29 16:52:09,458 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_BOT
+2025-10-29 16:52:09,543 - database - INFO - ✅ Создан новый пользователь: 1272230167
+2025-10-29 16:52:11,222 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:16,651 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:16,653 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /help
+2025-10-29 16:52:16,654 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-29 16:52:16,654 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_HELP
+2025-10-29 16:52:18,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:18,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:18,219 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:18,222 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:52:18,223 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:52:18,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:18,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:18,511 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_groups
+2025-10-29 16:52:18,513 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-29 16:52:18,514 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_GROUPS
+2025-10-29 16:52:18,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:20,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:20,469 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:20,469 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:52:20,470 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:52:20,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:21,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:21,776 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_groups
+2025-10-29 16:52:21,781 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-29 16:52:21,819 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_GROUPS
+2025-10-29 16:52:22,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:31,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:42,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:45,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:45,297 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:52:45,320 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:52:45,321 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:52:47,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:48,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:48,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:48,402 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:52:48,403 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:52:48,553 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: MANAGE_GROUPS
+2025-10-29 16:52:48,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:48,773 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /start
+2025-10-29 16:52:48,773 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-29 16:52:48,902 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_BOT
+2025-10-29 16:52:49,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:51,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:53,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:53,973 - root - ERROR - Ошибка при обработке обновления: Timed out
+2025-10-29 16:52:54,014 - root - ERROR - Message text: /start
+2025-10-29 16:52:54,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:54,468 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:52:54,490 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:52:54,556 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:52:54,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:54,782 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:52:54,783 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:52:54,784 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:52:54,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:54,956 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:52:54,989 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:52:55,011 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:52:55,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:55,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:55,281 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /schedule
+2025-10-29 16:52:55,282 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /schedule
+2025-10-29 16:52:55,283 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_SCHEDULE_PROCESS
+2025-10-29 16:52:55,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:57,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:57,044 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:52:57,045 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:52:57,045 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:52:57,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:52:59,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:52:59,106 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_schedules
+2025-10-29 16:52:59,106 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:52:59,107 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_SCHEDULES
+2025-10-29 16:52:59,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:01,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:01,381 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:53:01,384 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:53:01,384 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:53:01,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:04,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:04,051 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:04,053 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:04,055 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:04,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:06,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:06,600 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /manage_groups
+2025-10-29 16:53:06,600 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:53:06,602 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: MANAGE_GROUPS
+2025-10-29 16:53:06,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:08,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:08,381 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:08,383 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:08,430 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:08,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:12,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:12,015 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:12,015 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:12,016 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:12,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:13,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:13,384 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:13,385 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:13,394 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:13,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:14,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:14,984 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /get_group_id
+2025-10-29 16:53:15,030 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:15,031 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: REQUESTED_GROUP_ID | DETAILS: chat_id: 1272230167
+2025-10-29 16:53:15,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:19,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:19,218 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:19,219 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:19,220 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:19,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:24,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:24,770 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /edit_meeting
+2025-10-29 16:53:24,770 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:53:24,771 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_EDIT_MEETING
+2025-10-29 16:53:25,264 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:28,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:28,461 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:53:28,462 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:53:28,464 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:53:28,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:31,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:31,675 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /my_meetings
+2025-10-29 16:53:31,730 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:53:31,734 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: VIEWED_MY_MEETINGS
+2025-10-29 16:53:32,317 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:35,476 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:35,479 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:35,514 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:35,515 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:35,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:36,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:36,745 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:36,745 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:36,746 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:36,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:37,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:37,976 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:37,978 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:37,979 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:38,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:39,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:39,546 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:39,582 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:39,584 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:39,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:40,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:40,898 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:40,899 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:40,900 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:41,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:42,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:42,185 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:42,186 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:42,186 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:42,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:44,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:44,396 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:44,398 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:44,398 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:44,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:45,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:45,796 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:45,796 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:45,797 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:46,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:47,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:47,288 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:47,292 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:47,292 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:47,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:48,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:48,582 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:48,619 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:48,620 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:48,856 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:49,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:49,761 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:49,762 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:49,786 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:50,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:51,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:51,011 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:51,012 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:51,012 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:51,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:52,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:52,283 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:52,284 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:52,284 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:52,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:53,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:53,566 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:53,600 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:53,601 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:53,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:54,830 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:54,834 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:54,834 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:54,867 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:55,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:56,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:56,119 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:56,178 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:56,212 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:56,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:57,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:57,384 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:57,425 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:57,426 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:57,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:53:59,219 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:53:59,250 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:53:59,265 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:59,267 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:53:59,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:00,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:00,496 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:00,518 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:00,625 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:01,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:02,408 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:02,410 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:02,410 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:02,411 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:03,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:05,232 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:05,235 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:05,238 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:05,240 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:05,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:06,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:06,905 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:06,906 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:06,906 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:07,038 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:07,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:07,925 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:07,926 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:07,927 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:08,061 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:08,986 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:08,994 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:09,001 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:09,010 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:09,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:10,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:10,706 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:10,706 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:10,707 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:10,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:12,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:12,034 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:12,035 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:12,036 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:12,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:22,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:31,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:31,639 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:31,639 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:31,640 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:32,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:34,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:34,166 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:34,166 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:34,168 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:34,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:41,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:41,095 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:41,096 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:41,096 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:41,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:42,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:42,455 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:42,455 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:42,456 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:42,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:46,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:46,336 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:46,336 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:46,337 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:46,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:47,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:47,628 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:47,629 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:47,629 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:47,778 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:48,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:48,749 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:48,750 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:48,750 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:48,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:50,212 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:50,214 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:50,215 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:50,215 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:50,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:51,389 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:51,390 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:51,391 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:51,391 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:51,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:52,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:52,662 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:52,662 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:52,663 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:52,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:53,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:53,605 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:53,606 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:53,607 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:53,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:54,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:54,546 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:54,546 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:54,547 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:54,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:56,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:56,800 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:56,801 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:56,801 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:56,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:54:57,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:54:57,876 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:54:57,876 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:57,877 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:54:58,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:00,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:00,217 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:00,217 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:00,218 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:00,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:01,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:01,738 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:01,738 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:01,738 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:01,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:02,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:02,937 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:02,937 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:02,938 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:03,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:04,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:04,383 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:04,383 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:04,383 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:04,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:06,669 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:06,670 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:06,671 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:06,671 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:06,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:07,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:08,000 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:08,001 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:08,001 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:08,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:09,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:09,348 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:09,348 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:09,349 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:09,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:10,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:10,423 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:10,423 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:10,424 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:10,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:11,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:11,389 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:11,390 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:11,390 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:11,514 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:12,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:12,322 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:12,323 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:12,323 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:12,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:13,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:13,297 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:13,298 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:13,298 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:13,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:14,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:14,349 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:14,349 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:14,350 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:14,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:15,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:15,253 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:15,254 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:15,254 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:15,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:16,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:16,301 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:16,301 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:16,302 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:16,497 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:18,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:18,100 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:18,101 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:18,101 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:18,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:19,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:19,035 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:19,035 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:19,036 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:19,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:19,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:19,991 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:19,991 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:19,992 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:20,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:20,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:20,876 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:20,876 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:20,877 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:21,086 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:22,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:22,216 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:22,216 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:22,217 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:22,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:23,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:23,546 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:23,547 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:23,547 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:23,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:24,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:24,797 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:24,797 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:24,798 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:25,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:25,992 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:25,993 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:25,994 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:25,994 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:26,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:27,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:27,196 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:27,197 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:27,197 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:27,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:28,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:28,450 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:28,450 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:28,451 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:28,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:29,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:29,551 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:29,551 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:29,552 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:29,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:30,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:30,473 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:30,473 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:30,474 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:30,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:32,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:32,111 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:32,111 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:32,112 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:32,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:33,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:33,750 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:33,750 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:33,751 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:33,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:35,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:35,578 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:35,578 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:35,579 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:35,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:40,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:40,873 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:40,873 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:40,874 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:41,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:42,209 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:42,210 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:42,211 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:42,211 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:42,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:42,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:42,913 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:42,913 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:42,914 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:43,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:48,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:48,471 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:48,472 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:48,472 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:48,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:55:53,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:55:53,727 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:55:53,727 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:53,728 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:55:53,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:03,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:11,011 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:11,013 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:11,013 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:11,014 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:11,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:12,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:12,427 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:12,427 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:12,428 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:12,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:13,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:13,609 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:13,610 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:13,610 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:13,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:14,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:14,649 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:14,650 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:14,650 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:14,813 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:16,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:16,973 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:16,974 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:16,974 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:17,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:18,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:18,219 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: COMMAND | DETAILS: /new_meeting
+2025-10-29 16:56:18,219 - all_messages - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:18,220 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: STARTED_NEW_MEETING
+2025-10-29 16:56:18,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/sendMessage "HTTP/1.1 200 OK"
+2025-10-29 16:56:19,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:19,765 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:19,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:19,872 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:19,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:21,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:21,781 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:21,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:21,901 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:22,078 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:22,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:22,773 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:23,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:23,003 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:23,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,008 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:24,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,145 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:24,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,464 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:24,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:24,578 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:24,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:25,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:25,792 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:25,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:25,903 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:26,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:26,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:26,187 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:26,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:26,312 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:26,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:27,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:27,098 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_offline
+2025-10-29 16:56:27,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:27,415 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: offline
+2025-10-29 16:56:27,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,348 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:31,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,443 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:31,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,842 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:31,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:31,943 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:32,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:33,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:33,424 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:33,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:33,617 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:33,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:34,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:34,878 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:35,090 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:35,091 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:35,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:35,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:35,310 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:35,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:35,490 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:35,674 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:36,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:36,535 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:36,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:36,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:36,689 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:36,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:36,879 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:37,025 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:37,026 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:37,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,111 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,113 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:38,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,315 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:38,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,620 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,622 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:38,828 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:38,829 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:39,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:40,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:40,114 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:40,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:40,422 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:40,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:41,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:41,759 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:41,924 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:56:41,949 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:41,951 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:42,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:42,146 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: CALLBACK | DETAILS: type_online
+2025-10-29 16:56:42,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-10-29 16:56:42,320 - user_actions - INFO - USER: ID: 1272230167 | @phptrash | kerosene through my veins | ACTION: SELECTED_MEETING_TYPE | DETAILS: online
+2025-10-29 16:56:42,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/editMessageText "HTTP/1.1 200 OK"
+2025-10-29 16:56:52,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:02,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:12,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:22,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:32,850 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:42,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:57:53,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:58:18,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:58:28,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:58:39,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:58:49,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:58:59,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:59:09,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:59:19,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:59:29,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:59:39,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 16:59:49,926 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:00,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:10,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:20,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:30,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:40,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:00:50,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:00,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:10,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:20,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:31,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:41,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:01:51,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:01,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:11,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:21,812 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:31,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:42,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:02:52,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:02,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:12,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:22,649 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:32,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:42,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:03:52,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:03,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:13,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:23,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:33,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:43,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:04:53,837 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:04,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:14,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:24,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:34,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:44,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:05:54,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:04,826 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:14,977 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:25,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:35,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:45,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:06:55,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:05,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:15,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:25,751 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:35,842 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:45,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:07:56,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:06,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:16,222 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:26,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:36,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:46,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:08:56,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:06,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:16,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:27,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:37,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:47,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:09:57,291 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:07,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:17,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:27,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:37,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:48,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:10:58,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:11:08,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:11:18,633 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:11:29,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:11:40,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:11:50,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:00,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:10,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:20,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:30,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:40,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:12:51,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:01,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:11,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:21,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:31,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:42,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:13:52,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:02,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:12,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:22,692 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:32,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:43,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:14:53,760 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:03,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:14,219 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:24,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:34,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:44,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:15:54,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:04,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:15,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:25,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:35,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:45,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:16:55,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:05,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:15,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:25,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:35,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:46,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:17:56,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:06,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:16,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:26,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:36,654 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:46,755 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:18:56,859 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:06,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:17,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:27,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:37,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:47,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:19:58,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:08,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:18,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:28,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:39,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:49,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:20:59,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:21:09,671 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:21:19,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:21:30,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:21:40,255 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:21:50,357 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:22:03,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:22:15,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"
+2025-10-29 17:22:25,357 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8067436187:AAFiv3PWNwecdNNu6exg8p93hmLUT6SLRY0/getUpdates "HTTP/1.1 200 OK"

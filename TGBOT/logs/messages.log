@@ -515,3 +515,120 @@
 2025-10-28 16:33:39,804 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: supergroup | TYPE: command | CONTENT: /get_group_id
 2025-10-28 16:34:22,319 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /my_groups
 2025-10-28 16:34:57,561 - USER: ID: 783230538 | @KaMiKaZe236 | D | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:48:52,820 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-29 16:49:00,135 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:49:15,386 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:50:03,726 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:50:07,650 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: дмидыякмишяыкмиш
+2025-10-29 16:50:09,372 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: ыдмпыдямщыякмщи
+2025-10-29 16:50:17,963 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: 29.10.2025
+2025-10-29 16:50:25,778 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: 17:00
+2025-10-29 16:50:28,454 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: message | CONTENT: омуфшфуршщмауи
+2025-10-29 16:50:35,777 - USER: ID: 1279717168 | @Minat0_Sensei | Minat0 | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:51:56,339 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /publish
+2025-10-29 16:52:09,434 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-29 16:52:16,654 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /help
+2025-10-29 16:52:18,222 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:52:18,513 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-29 16:52:20,469 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:52:21,781 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_groups
+2025-10-29 16:52:45,320 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:52:48,403 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:52:48,773 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /start
+2025-10-29 16:52:54,490 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:52:54,783 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:52:54,989 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:52:55,282 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /schedule
+2025-10-29 16:52:57,045 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:52:59,106 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_schedules
+2025-10-29 16:53:01,384 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:53:04,053 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:06,600 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /manage_groups
+2025-10-29 16:53:08,383 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:12,015 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:13,385 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:15,030 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /get_group_id
+2025-10-29 16:53:19,219 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:24,770 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /edit_meeting
+2025-10-29 16:53:28,462 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:53:31,730 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /my_meetings
+2025-10-29 16:53:35,514 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:36,745 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:37,978 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:39,582 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:40,899 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:42,186 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:44,398 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:45,796 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:47,292 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:48,619 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:49,762 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:51,012 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:52,284 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:53,600 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:54,834 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:56,178 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:57,425 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:53:59,265 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:00,518 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:02,410 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:05,238 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:06,906 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:07,926 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:09,001 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:10,706 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:12,035 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:31,639 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:34,166 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:41,096 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:42,455 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:46,336 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:47,629 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:48,750 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:50,215 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:51,391 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:52,662 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:53,606 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:54,546 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:56,801 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:54:57,876 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:00,217 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:01,738 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:02,937 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:04,383 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:06,671 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:08,001 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:09,348 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:10,423 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:11,390 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:12,323 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:13,298 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:14,349 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:15,254 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:16,301 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:18,101 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:19,035 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:19,991 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:20,876 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:22,216 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:23,547 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:24,797 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:25,994 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:27,197 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:28,450 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:29,551 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:30,473 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:32,111 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:33,750 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:35,578 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:40,873 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:42,211 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:42,913 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:48,472 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:55:53,727 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:11,013 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:12,427 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:13,610 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:14,650 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:16,974 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
+2025-10-29 16:56:18,219 - USER: ID: 1272230167 | @phptrash | kerosene through my veins | CHAT: private | TYPE: command | CONTENT: /new_meeting
